@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/Album_res">
+        <file>images/image1.jpeg</file>
+        <file>images/image2.jpeg</file>
+        <file>images/image3.jpeg</file>
+        <file>images/image4.jpeg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>15</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="Btn_humi_temp">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>90</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>温湿度</string>
+   </property>
+   <property name="icon">
+    <iconset resource="Btn_Icon.qrc">
+     <normaloff>:/Btn_Icon/Icon/dht11.png</normaloff>:/Btn_Icon/Icon/dht11.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Btn_sr04">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>90</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>超声波</string>
+   </property>
+   <property name="icon">
+    <iconset resource="Btn_Icon.qrc">
+     <normaloff>:/Btn_Icon/Icon/sr04.png</normaloff>:/Btn_Icon/Icon/sr04.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Btn_sg90">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>90</y>
+     <width>141</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>舵机</string>
+   </property>
+   <property name="icon">
+    <iconset resource="Btn_Icon.qrc">
+     <normaloff>:/Btn_Icon/Icon/sg90.png</normaloff>:/Btn_Icon/Icon/sg90.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Btn_album">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>220</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>相册</string>
+   </property>
+   <property name="icon">
+    <iconset resource="Btn_Icon.qrc">
+     <normaloff>:/Btn_Icon/Icon/album.png</normaloff>:/Btn_Icon/Icon/album.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>1</y>
+     <width>1021</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/background_img/background_Images/backgroun_mian_page.jpg);</string>
+   </property>
+   <property name="sizeAdjustPolicy">
+    <enum>QAbstractScrollArea::AdjustIgnored</enum>
+   </property>
+  </widget>
+  <zorder>listView</zorder>
+  <zorder>Btn_humi_temp</zorder>
+  <zorder>Btn_sr04</zorder>
+  <zorder>Btn_sg90</zorder>
+  <zorder>Btn_album</zorder>
+ </widget>
+ <resources>
+  <include location="Btn_Icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

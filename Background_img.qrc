@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/background_img">
+        <file>background_Images/backgroun_mian_page.jpg</file>
+    </qresource>
+</RCC>

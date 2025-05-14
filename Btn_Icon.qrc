@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/Btn_Icon">
+        <file>Icon/album.png</file>
+        <file>Icon/dht11.png</file>
+        <file>Icon/sg90.png</file>
+        <file>Icon/sr04.png</file>
+        <file>Icon/return.png</file>
+    </qresource>
+</RCC>
